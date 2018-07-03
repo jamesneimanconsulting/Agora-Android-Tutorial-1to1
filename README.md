@@ -7,7 +7,7 @@ This tutorial enables you to quickly get started in your development efforts to 
 * Enable or disable video.
 * Choose between the front or rear camera.
 
-A more complete demonstration app can be found [here](https://github.com/AgoraIO/OpenVideoCall-Android).
+A more complete demonstration can be found [here](https://github.com/AgoraIO/OpenVideoCall-Android).
 
 ## Prerequisites
 
@@ -50,9 +50,9 @@ dependencies {
 2. Download the Agora Video SDK from [Agora.io SDK](https://www.agora.io/en/download/).
 3. Unzip the downloaded SDK package.
 4. Copy the .jar file from the **libs** folder of the downloaded SDK package to the **/apps/libs** folder of the sample application.
-5. Copy the .so files from the **arm64-v8a** folder of the downloaded SDK package to the **/app/src/main/jniLibs/arm64-v8a** folder of the sample application.
-6. Copy the .so files from the **armeabi-v7a** folder of the downloaded SDK package to the **/app/src/main/jniLibs/armeabi-v7a** folder of the sample application.
-7. Copy the .so files from the **x86** folder of the downloaded SDK package to the **/app/src/main/jniLibs/x86a** folder of the sample application.
+5. Copy the .so files from the **armeabi-v7a** folder of the downloaded SDK package to the **/app/src/main/jniLibs/armeabi-v7a** folder of the sample application.
+6. *(Optional)* Copy the .so files from the **arm64-v8a** folder of the downloaded SDK package to the **/app/src/main/jniLibs/arm64-v8a** folder of the sample application.
+7. *(Optional)* Copy the .so files from the **x86** folder of the downloaded SDK package to the **/app/src/main/jniLibs/x86** folder of the sample application.
 
 
 ### Obtain and Build the Sample Application 
@@ -66,7 +66,7 @@ dependencies {
 * [Create Visual Assets](#create-visual-assets)
 * [Design the User Interface](#design-the-user-interface)
 
-For details about the APIs used to develop this sample, see the [Agora.io Documentation](https://docs.agora.io/en/2.2).
+For details about the APIs used to develop this sample, see the [Agora.io Documentation version 2.2](https://docs.agora.io/en/2.2).
 
 
 ## Set Permissions
@@ -255,7 +255,7 @@ private void joinChannel() {
 
 The `channelName` parameter receives the name of the channel to join (`demoChannel1`). The call to [RtcEngine.joinChannel()](https://docs.agora.io/en/2.2/product/Video/API%20Reference/communication_android_video?platform=Android) enables the speakerphone when using Agora.
 
-**Note**: Users in the same channel can talk to each other, but users with different app IDs cannot call each other even if they join the same channel.
+**Note**: Users in the same channel can talk to each other, but users with different App IDs cannot call each other even if they join the same channel.
 
 In this code sample, the helper method `joinChannel()` is invoked by `initAgoraEngineAndJoinChannel()`:
 
@@ -510,6 +510,13 @@ The `btn_voice` button that mutes video has been configured in *activity_video_c
 * You can find full API documentation at the [Document Center](https://docs.agora.io/en/).
 * You can file bugs about this sample [here](https://github.com/AgoraIO/Agora-Android-Tutorial-1to1/issues).
 
+
+## Learn More
+- 1 to 1 Video Tutorial for [iOS/Swift](https://github.com/AgoraIO/Agora-iOS-Tutorial-Swift-1to1)
+- 1 to 1 Video Tutorial for [iOS/Objective-C](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1)
+- 1 to 1 Video Tutorial for [MacOS](https://github.com/AgoraIO/Agora-macOS-Tutorial-Swift-1to1)
+- 1 to 1 Video Tutorial for [Windows](https://github.com/AgoraIO/Agora-Windows-Tutorial-1to1)
+- 1 to 1 Video Tutorial for [Web](https://github.com/AgoraIO/Agora-Web-Tutorial-1to1)
 
 ## License
 This software is under the MIT License (MIT). [View the license](LICENSE.md).
