@@ -304,7 +304,6 @@ private final IRtcEngineEventHandler mRtcEventHandler = new IRtcEngineEventHandl
     }
 };
 ```
-
 The `onFirstRemoteVideoDecoded()` method is invoked once another user is connected and the first remote video frame is received and decoded. This method invokes a helper method called `setupRemoteVideo()`:
 
 ```java
@@ -324,6 +323,7 @@ private void setupRemoteVideo(int uid) {
     tipMsg.setVisibility(View.GONE);
 }
 ```
+
 
 `setupRemoteVideo()` performs the following:
 * Gets a reference to the remote video view in the layout.
