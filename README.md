@@ -40,7 +40,7 @@ The SDK must be integrated into the sample project before it can opened and buil
 ...
 dependencies {
     ...
-    compile 'io.agora.rtc:full-sdk:2.1.0' 
+    compile 'io.agora.rtc:full-sdk:2.2.3' 
 }
 ```
 
@@ -514,7 +514,7 @@ The `btn_voice` button that mutes video has been configured in *activity_video_c
 ## Learn More
 - 1 to 1 Video Tutorial for [iOS/Swift](https://github.com/AgoraIO/Agora-iOS-Tutorial-Swift-1to1)
 - 1 to 1 Video Tutorial for [iOS/Objective-C](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1)
-- 1 to 1 Video Tutorial for [MacOS](https://github.com/AgoraIO/Agora-macOS-Tutorial-Swift-1to1)
+- 1 to 1 Video Tutorial for [macOS](https://github.com/AgoraIO/Agora-macOS-Tutorial-Swift-1to1)
 - 1 to 1 Video Tutorial for [Windows](https://github.com/AgoraIO/Agora-Windows-Tutorial-1to1)
 - 1 to 1 Video Tutorial for [Web](https://github.com/AgoraIO/Agora-Web-Tutorial-1to1)
 
